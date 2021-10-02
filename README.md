@@ -2,23 +2,23 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![ELK Stack Diagram](./Images/Week-12-HW.drawio.png)
+![ELK Stack Diagram](./Images/project-network-diagram.png)
 
 These files been tested and verify and used to generate a live ELK Stack deployment within Azure and they can be used to recreate this diagram. Portions of these files may be utilized to recreate portions of this project.
 
 DVWA-Playbook.yml used to install DVWA Webservers.
 
-- [`DVWA-Playbook.yml` used to install DVWA Webservers.](./DVWA-Containers/container-setup.yml)
+- [`DVWA-Playbook.yml` Installs DVWA Webservers.](./DVWA-Containers/container-setup.yml)
 
-- [`install-elk.yml` is how to install ELK Stack Server.](./ELK-Server/elkserver.yml)
+- [`install-elk.yml` Installs ELK Stack Server.](./ELK-Server/elkserver.yml)
 
 - [`filebeat-config.yml` Filebeat configuration modified and copied to the webservers as a  `filebeat.yml`.](./Filebeat/filebeat-config.yml)
 
-- [`filebeat-playbook.yml` I install Filebeat Syslog Service on the webservers.](./Filebeat/filebeat-playbook.yml)
+- [`filebeat-playbook.yml` Installs Filebeat Syslog Service on the webservers.](./Filebeat/filebeat-playbook-config.yml)
 
-- [`metricbeat-config.yml` Metricbeat configuration modified and copied to the webserver as a `metricbeat.yml`.](./Metricbeat/metricbeat-config.yml)
+- [`metricbeat-config.yml` Metricbeat configuration modified and copied to the webserver as a `metricbeat-config.yml`.](./Metricbeat/metricbeat-config.yml)
 
-- [`metricbeat-playbook.yml` I install Metricbeat service on webservers](./Metricbeat/metricbeat-playbook.yml)
+- [`metricbeat-playbook.yml` Installs Metricbeat service on webservers](./Metricbeat/metricbeat-playbook.yml)
 
 This document contains the following details:
 
