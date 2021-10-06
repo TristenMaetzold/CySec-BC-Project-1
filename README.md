@@ -84,7 +84,7 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses  |
 |----------|---------------------|---------------------- |
 | AFIRIN   | YES                 |10.0.0.0/16 10.1.0.0/16| 
-| Jump-Box-Provisioner | Yes                 |10.0.0.0/16 10.1.0.0/16|
+| Jump-Box-Provisioner | YES                 |10.0.0.0/16 10.1.0.0/16|
 | WEB-1    | NO                  |10.0.0.0/16 10.1.0.0/16|
 | WEB-2    | NO                  |10.0.0.0/16 10.1.0.0/16| 
 |ELK-SERVER| NO                  |10.0.0.0/16 10.1.0.0/16|
@@ -118,7 +118,7 @@ A summary of the access policies in place can be found in the table below.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Running Docker ps](./Images/ELK-docker-ps.PNG)
+![Running Docker ps](./Images/ELK-docker-ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -140,7 +140,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
+- ssh <
 - Update the _____ file to include...
 - Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
