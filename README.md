@@ -14,7 +14,7 @@ DVWA-Playbook.yml used to install DVWA Webservers.
 
 - [`filebeat-config.yml` Filebeat configuration modified and copied to the webservers as a  `filebeat.yml`.](./Filebeat/filebeat-config.yml)
 
-- [`filebeat-playbook.yml` Installs Filebeat Syslog Service on the webservers.](./Filebeat/filebeat-playbook-config.yml)
+- [`filebeat-playbook.yml` Installs Filebeat Syslog Service on the webservers.](./Filebeat/filebeat-config.yml)
 
 - [`metricbeat-config.yml` Metricbeat configuration modified and copied to the webserver as a `metricbeat-config.yml`.](./Metricbeat/metricbeat-config.yml)
 
