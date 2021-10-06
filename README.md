@@ -18,7 +18,7 @@ DVWA-Playbook.yml used to install DVWA Webservers.
 
 - [`metricbeat-config.yml` Metricbeat configuration modified and copied to the webserver as a `metricbeat-config.yml`.](./Metricbeat/metricbeat-config.yml)
 
-- [`metricbeat-playbook.yml` Installs Metricbeat service on webservers](./Metricbeat/metricbeat-playbook.yml)
+- [`metricbeat-playbook.yml` Installs Metricbeat service on webservers](./Metricbeat/meticbeat-playbook.yml)
 
 This document contains the following details:
 
