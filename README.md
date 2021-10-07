@@ -65,7 +65,7 @@ The configuration details of each machine may be found below.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Zalinian |Worstation|Home IP| WINDOWS 10       |
+| Zalinian |Workstation|Home IP| WINDOWS 10       |
 |Jump-Box-Provisioner  | Gateway  | 10.0.0.7   | LINUX UBUNTU 18.4|
 | WEB-1    | DVWA     | 10.0.0.8   | LINUX UBUNTU 18.4|
 | WEB-2    | DVWA     | 10.0.0.9   | LINUX UBUNTU 18.4|
